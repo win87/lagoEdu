@@ -1,21 +1,19 @@
 <?php 
     require 'header.php';
  ?>
-
     <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <?php echo $schoolCName; ?>
-                    <small><?php echo $schoolEName; ?></small>
+                <h1 class="page-header">Services
+                    <small>Subheading</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active"><?php echo $schoolCName ?></li>
+                    <li class="active">Services</li>
                 </ol>
             </div>
         </div>
@@ -24,7 +22,7 @@
         <!-- Image Header -->
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="<?php echo $name; ?>" alt="">
+                <img class="img-responsive" src="http://placehold.it/1200x300" alt="">
             </div>
         </div>
         <!-- /.row -->
@@ -33,7 +31,7 @@
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Services Panels</h2>
+                <h2 class="page-header">线路特点</h2>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">

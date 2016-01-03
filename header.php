@@ -48,13 +48,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">关于我们</a>
+                        <a href="about.php">关于我们</a>
                     </li>
                     <li>
-                        <a href="services.html">冬夏令营路线</a>
+                        <a href="services.php">冬夏令营路线</a>
                     </li>
                     <li>
-                        <a href="contact.html">联系我们</a>
+                        <a href="contact.php">联系我们</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作院校 <b class="caret"></b></a>
@@ -100,7 +100,7 @@
                                 <a href="sidebar.html">Sidebar Page</a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="faq.php">FAQ</a>
                             </li>
                             <li>
                                 <a href="404.html">404</a>
