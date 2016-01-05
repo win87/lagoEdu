@@ -60,6 +60,34 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作院校 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
+                                <a href="lvcp.php">利弗莫尔高中</a>
+                            </li>
+                            <li>
+                                <a href="rwcs.php">红木基督学校</a>
+                            </li>
+                            <li>
+                                <a href="sjms.php">圣华金天主教学校</a>
+                            </li>
+                            <li>
+                                <a href=".php"></a>
+                            </li>
+                            <li>
+                                <a href=".php"></a>
+                            </li>
+                            <li>
+                                <a href=".php"></a>
+                            </li>
+                            <li>
+                                <a href=".php"></a>
+                            </li>
+                            <li>
+                                <a href=".php"></a>
+                            </li>
+
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
                                 <a href="portfolio-1-col.html">1 Column Portfolio</a>
                             </li>
                             <li>
