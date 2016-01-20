@@ -1,3 +1,10 @@
+<!--no cache for testing -->
+<?php
+    header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+    header("Cache-Control: post-check=0, pre-check=0", false);
+    header("Pragma: no-cache");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,12 +57,6 @@
                     <li>
                         <a href="about.php">关于我们</a>
                     </li>
-                    <li>
-                        <a href="services.php">冬夏令营路线</a>
-                    </li>
-                    <li>
-                        <a href="contact.php">联系我们</a>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作院校 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -69,21 +70,26 @@
                                 <a href="sjms.php">圣华金天主教学校</a>
                             </li>
                             <li>
-                                <a href=".php"></a>
+                                <a href="cornerstoneacademy.php">基石基督中学</a>
                             </li>
                             <li>
-                                <a href=".php"></a>
+                                <a href="bishop.php">奥多德高中</a>
                             </li>
                             <li>
-                                <a href=".php"></a>
+                                <a href="tqls.php">科埃里兰学校</a>
                             </li>
                             <li>
-                                <a href=".php"></a>
+                                <a href=".php">山谷基督学校</a>
                             </li>
                             <li>
-                                <a href=".php"></a>
+                                <a href=".php">奥林达中学</a>
                             </li>
-
+                            <li>
+                                <a href=".php">北山基督学校</a>
+                            </li>
+                            <li>
+                                <a href=".php">旧金山基督中学</a>
+                            </li>
                             <li>
                                 <a href="portfolio-1-col.html">1 Column Portfolio</a>
                             </li>
@@ -103,6 +109,12 @@
                                 <a href="portfolio-item.html">Single Portfolio Item</a>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="services.php">冬夏令营路线</a>
+                    </li>
+                    <li>
+                        <a href="contact.php">联系我们</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">寄宿家庭服务 <b class="caret"></b></a>

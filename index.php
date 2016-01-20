@@ -1,5 +1,12 @@
 <?php 
     require 'header.php';
+
+    $schoolNameOne = "利弗莫尔高中";
+    $schoolNameTwo = "红木基督学校";
+    $schoolNameThree = "圣华金天主教学校";
+    $schoolNameFour = "基石基督中学";
+    $schoolNameFive = "奥多德高中";
+    $schoolNameSix = "科埃里兰学校";
  ?>
 
     <!-- Header Carousel -->
@@ -14,19 +21,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('images/school/ucb.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 1</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill" style="background-image:url('images/school/standford.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill" style="background-image:url('images/school/standford2.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
@@ -92,8 +99,8 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">合作院校列表
-                    <small>Subheading</small>
+                <h1 class="page-header">
+                    <small>优质院校列表</small>
                 </h1>
             </div>
         </div>
@@ -102,29 +109,29 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="lvcp.php">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/LVCP/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">School Name</a>
+                    <a href="lvcp.php"><?php echo $schoolNameOne; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="rwcs.php">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/RCS/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">School Name</a>
+                    <a href="rwcs.php"><?php echo $schoolNameTwo; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="sjms.php">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/SJM/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">School Name</a>
+                    <a href="sjms.php"><?php echo $schoolNameThree; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
@@ -134,68 +141,68 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="cornerstoneacademy.php">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/cas/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">Project Name</a>
+                    <a href="cornerstoneacademy.php"><?php echo $schoolNameFour; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="#">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/BDS/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">Project Name</a>
+                    <a href="#"><?php echo $schoolNameFive; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                <a href="tqls.php">
+                    <img class="img-responsive img-hover school-index-img" src="images/school/TQLS/home.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="portfolio-item.html">Project Name</a>
+                    <a href="tqls.php"><?php echo $schoolNameSix; ?></a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
         </div>
 
-        <!-- Portfolio Section -->
+        <!-- More school -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="school-list.php">查看更多院校列表</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other school -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
+                <h2 class="page-header">合作院校</h2>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
             </div>
         </div>
         <!-- /.row -->

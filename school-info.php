@@ -10,7 +10,7 @@
         <!-- Image Header -->
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="<?php echo $imgUrl; ?>" alt="">
+                <img class="img-responsive school-home-img" src="<?php echo $imgUrl; ?>" alt="">
             </div>
         </div>
         <!-- /.row -->
@@ -24,60 +24,52 @@
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
                               <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     <div class="panel-body">
-                        <h4>Service One</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p><?php echo @$ad1; ?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
                               <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     <div class="panel-body">
-                        <h4>Service Two</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p><?php echo @$ad2; ?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
                               <i class="fa fa-support fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     <div class="panel-body">
-                        <h4>Service Three</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p><?php echo @$ad3; ?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
                               <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     <div class="panel-body">
-                        <h4>Service Four</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p><?php echo @$ad4; ?></p>
                     </div>
                 </div>
             </div>
@@ -101,119 +93,121 @@
                     </li>
                 </ul>
 
+                <hr style="border-top:none;">
+                
                 <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade active in" id="service-one">
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
                                     <h4 class="media-heading">建校时间</h4>
-                                    <p><?php echo @$schoolYear; ?></p>
+                                    <p><?php echo @$year; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Two</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">学校认证</h4>
+                                    <p><?php echo @$identify; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-support fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Three</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">校址</h4>
+                                    <p><?php echo @$address; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Four</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">城市气候</h4>
+                                    <p><?php echo @$weather; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Five</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">附近大学</h4>
+                                    <p><?php echo @$university; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Six</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">学校性质</h4>
+                                    <p><?php echo @$type; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Seven</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">占地面积</h4>
+                                    <p><?php echo @$area; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Eight</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">年级设置</h4>
+                                    <p><?php echo @$gradeSetup; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Nine</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">开放申请年级</h4>
+                                    <p><?php echo @$gradeOpen; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -224,114 +218,114 @@
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service One</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">学校人数</h4>
+                                    <p><?php echo @$studentNumber; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Two</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">国际学生人数</h4>
+                                    <p><?php echo @$intlNumber; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-support fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Three</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">师生比例</h4>
+                                    <p><?php echo @$ratio; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Four</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">平均每班人数</h4>
+                                    <p><?php echo @$avgNumber; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Five</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">SAT平均分</h4>
+                                    <p><?php echo @$sat; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Six</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">学校教师资质</h4>
+                                    <p><?php echo @$teacher; ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Seven</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">学生种族</h4>
+                                    <p><?php echo @$race; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Eight</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">ESL课程</h4>
+                                    <p><?php echo @$esl; ?></p>
                                 </div>
                             </div>
                             <div class="media">
                                 <div class="pull-left">
-                                    <span class="fa-stack fa-2x">
+                                    <span class="fa-stack fa-1x">
                                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                           <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
                                     </span> 
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Service Nine】</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                                    <h4 class="media-heading">住宿方式</h4>
+                                    <p><?php echo @$homestay; ?></p>
                                 </div>
                             </div>
                         </div>
