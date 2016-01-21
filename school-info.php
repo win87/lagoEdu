@@ -15,7 +15,7 @@
         </div>
         <!-- /.row -->
 
-        <!-- Service Panels -->
+        <!-- School advantages -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
             <div class="col-lg-12">
