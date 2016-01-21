@@ -10,7 +10,7 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="images/school/silicon valley.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <h2>美国加州湾区优质高中联盟</h2>
@@ -111,7 +111,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+                <img class="img-responsive" src="images/school/silicon valley.jpg" alt="">
             </div>
         </div>
         <!-- /.row -->
