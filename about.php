@@ -91,8 +91,33 @@
             </div>
         </div>
 
-        <!-- Team Members -->
+        <!-- Our Services -->
         <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">我们的服务内容</h2>
+            </div>
+            <div class="col-md-6">
+                <p>包括:</p>
+                <ul>
+                    <li><strong>免费咨询</strong></li>
+                    <li>初步筛选，确保每一位申请人都具备申请资格</li>
+                    <li>全程协助申请，包括：校园介绍、入学标准介绍、面试安排、寄送申请资料、I-20签证申请、及升学咨询，等</li>
+                    <li>寄宿家庭挑选安置、机场/校园接送、手机卡、银行卡办理等本地服务</li>
+                    <li>与学生家庭保持联系，及时更新学生的学习和生活信息</li>
+                    <li>24/7 服务支持</li>
+                </ul>
+                <p>
+                    其他
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Team Members -->
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Our Team</h2>
             </div>
@@ -210,7 +235,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- /.row -->
 
         <!-- Our Customers -->

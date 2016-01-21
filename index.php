@@ -99,8 +99,12 @@
         <!-- Our advantages -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">我们的优势</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        <small>我们的优势</small>
+                    </h1>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
@@ -111,7 +115,8 @@
                         </span>
                     </div>
                     <div class="panel-body">
-                        <p><?php echo @$ad1; ?></p>
+                        <h4>专业团队</h4>
+                        <p>学校申请、签证、学校、学生和寄宿家庭管理等，都由专人专项对接与负责</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +129,8 @@
                         </span>
                     </div>
                     <div class="panel-body">
-                        <p><?php echo @$ad2; ?></p>
+                        <h4>定制化服务</h4>
+                        <p>从学校选择，申请，到安排寄宿家庭、机场接送、校园接送等，我们将提供无缝对接一条龙服务</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +143,8 @@
                         </span>
                     </div>
                     <div class="panel-body">
-                        <p><?php echo @$ad3; ?></p>
+                        <h4>选择、匹配合理化 </h4>
+                        <p>根据学生的情况进行初步筛选，确保学生的综合能力、成绩、兴趣爱好与学校匹配，确保双方满意</p>
                     </div>
                 </div>
             </div>
@@ -150,12 +157,12 @@
                         </span>
                     </div>
                     <div class="panel-body">
-                        <p><?php echo @$ad4; ?></p>
+                        <h4>贴心的寄宿家庭服务</h4>
+                        <p>完全根据学生对语言、文化、饮食习惯等各方面的要求，安排合适的寄宿家庭，确保学生尽快融入当地生活</p>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
