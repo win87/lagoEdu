@@ -10,6 +10,10 @@
         <!-- Portfolio Item Row -->
         <div class="row">
 
+            <div class="col-md-2">
+            
+            </div>
+            
             <div class="col-md-8">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -42,11 +46,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <h3>Project Description</h3>
+            <div class="col-md-2">
+                <!-- <h3>Project Description</h3>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
+                    <li>建校时间：<?php echo @$year; ?></li>
+                    <li>Dolor Sit Amet<?php echo @$university; ?></li>
                     <li>Consectetur</li>
                     <li>Adipiscing Elit</li>
                     <li>Lorem Ipsum</li>
@@ -64,7 +68,7 @@
                     <li>Consectetur</li>
                     <li>Adipiscing Elit</li>
 
-                </ul>
+                </ul> -->
             </div>
 
         </div>
@@ -528,6 +532,18 @@
         <!-- /.row -->
 
         <hr>
+
+        <!-- Contact us Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-success btn-block" href="#">联系我们</a>
+                </div>
+            </div>
+        </div>
 
 <?php 
     require 'footer.php';
