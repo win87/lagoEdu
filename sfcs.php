@@ -1,30 +1,30 @@
 <?php 
 
 	$pageName = "旧金山基督学校";
-	$imgUrl = "images/school/SJM/home.jpg";
-	$year = "";
-	$identify = "西部院校联盟、加州公立特许学校";
-	$address = "";
-	$weather = "阳光充足，冬暖夏凉";
-	$university = "斯旦福大学、加州大学伯克利分校";
-	$type = "";
-	$area = "";
-	$gradeSetup = "";
-	$gradeOpen = "";
-	$studentNumber = "";
-	$intlNumber = "";
-	$ratio = "";
-	$avgNumber = "";
-	$sat = "";
-	$teacher = "";
+	$imgUrl = "images/school/SFCS/home.jpg";
+	$year = "1971年";
+	$identify = "西部院校联盟";
+	$address = "加州旧金山市";
+	$weather = "温和宜人，四季分明";
+	$university = "斯旦福大学、加州大学伯克利分校、旧金山大学";
+	$type = "美国基督私立男女合校";
+	$area = "1英亩";
+	$gradeSetup = "K-12年级";
+	$gradeOpen = "6-12年级";
+	$studentNumber = "230人";
+	$intlNumber = "50人";
+	$ratio = "1:20";
+	$avgNumber = "25人";
+	$sat = "1690";
+	$teacher = "所有老师拥有相关学校资格";
 	$race = "";
-	$esl = "";
-	$homestay = "";
+	$esl = "提供ESL课程";
+	$homestay = "寄宿家庭";
 
-	$ad1 = "全美公立高中排名前1%;加州排名前十的公立特许学校";
-	$ad2 = "公立收费，私营管理；招生面广、性价比极高";
-	$ad3 = "依托公立高中的优质教学，兼具私立高中的优秀管理模式和师资";
-	$ad4 = "俱乐部和体育项目种类齐全，大型户外运动场一应俱全";
+	$ad1 = "";
+	$ad2 = "";
+	$ad3 = "";
+	$ad4 = "";
 
 	require 'school-info.php';
 

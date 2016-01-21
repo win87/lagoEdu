@@ -74,12 +74,11 @@
         </div>
         <!-- /.row -->
 
-
         <!-- School advantages -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">学校优势</h2>
+                <h3 class="page-header">学校优势</h3>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
@@ -138,7 +137,7 @@
         <!-- Service Tabs -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">学校简介</h2>
+                <h3 class="page-header">学校简介</h3>
             </div>
             <div class="col-lg-12">
 

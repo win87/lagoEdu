@@ -79,16 +79,16 @@
                                 <a href="tqls.php">科埃里兰学校</a>
                             </li>
                             <li>
-                                <a href=".php">山谷基督学校</a>
+                                <a href="VCSD.php">山谷基督学校</a>
                             </li>
                             <li>
-                                <a href=".php">奥林达中学</a>
+                                <a href="orinda.php">奥林达中学</a>
                             </li>
                             <li>
-                                <a href=".php">北山基督学校</a>
+                                <a href="nhcs.php">北山基督学校</a>
                             </li>
                             <li>
-                                <a href=".php">旧金山基督中学</a>
+                                <a href="sfcs.php">旧金山基督中学</a>
                             </li>
                             <li>
                                 <a href="portfolio-1-col.html">1 Column Portfolio</a>
