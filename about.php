@@ -13,15 +13,15 @@
                 <img class="img-responsive" src="images/school/silicon valley.jpg" alt="">
             </div>
             <div class="col-md-6">
-                <h2>美国加州湾区优质高中联盟</h2>
+                <h3>美国加州湾区优质高中联盟</h3>
                 <p>
-                    做为一家专注美国留学服务的机构，为赴美留学的学生及家长提供一系列专业的教育管理服务。公司成立于美国加利福尼亚州，并于中国上海设有办事处。成立发展至今，TPEC与多家美国湾区著名中高等院校合作；为申请人提供一系列定制化的服务，包括：选择学校、申请、签证、寄宿家庭、接送机、学业管理、升学辅导、突发事件处理等服务。
+                    TP（Tigris and Partners）公司成立于美国加利福尼亚州。做为一家专注美国留学服务的机构，从事加州数十所优质高中的国际学生招生、院校推广和寄宿家庭服务工作，为赴美留学的学生及家长提供一系列专业的教育管理服务。包括：选择学校、申请、签证、寄宿家庭、接送机、学业管理、升学辅导、突发事件处理等服务。
                 </p>
                 <p>
-                    我们旨在为留学美国的学生，和美国本地口碑好、师资力量强的学校架立起一道桥梁，为学生提供了一个更好的留学平台（更多量身定制的选择），让学生尽快融入到美国的学习与生活，更好的体验与理解美国校园文化，同时协助家长参与学生的教育工作，让家长放心。
+                    TP目前与数十家优秀院校建立了合作关系，为预备去美国读书的学生申请最适合的学校。此外，为前往美国的留学生提供细致的境外服务、人性化的关怀和专业的升学辅导，使得学生能够更好的融入留学生活，适应不同文化背景下的观念差异，正确规划未来的职业发展，成为具有国际化视野及综合素质的人才。如今，美国高中已经得到留学业界、学生及家长的高度认可。
                 </p>
                 <p>
-                    美国加州湾区高中联盟旗下目前拥有寄宿家庭管理、美国高中交换预备班、美国冬夏令营等服务产品，为学生和家长提供全方位服务。
+                    美国加州湾区高中联盟旗下目前拥有寄宿家庭管理、美国高中交换预备班、美国冬夏令营等服务产品，为学生和家长提供全方位服务，让每个学生都找到属于自己的最精彩的人生舞台。
                 </p>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">我们的优势</h2>
+                <h3 class="page-header">我们的优势</h3>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
@@ -94,7 +94,7 @@
         <!-- Our Services -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">我们的服务内容</h2>
+                <h3 class="page-header">我们的服务内容</h3>
             </div>
             <div class="col-md-6">
                 <p>包括:</p>
@@ -106,9 +106,6 @@
                     <li>与学生家庭保持联系，及时更新学生的学习和生活信息</li>
                     <li>24/7 服务支持</li>
                 </ul>
-                <p>
-                    其他
-                </p>
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="images/school/silicon valley.jpg" alt="">
@@ -241,7 +238,7 @@
         <!-- Our Customers -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">合作院校</h2>
+                <h3 class="page-header">合作院校</h3>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6">
                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">

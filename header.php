@@ -120,6 +120,9 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">寄宿家庭服务 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
+                                <a href="homestay-service.php">TP寄宿家庭</a>
+                            </li>
+                            <li>
                                 <a href="blog-home-1.html">Blog Home 1</a>
                             </li>
                             <li>
